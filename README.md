@@ -20,6 +20,7 @@ I will explain how to get bot token here. For mode detail consider reading the *
 ● Here you can see the **Installation** section. Click on it. Scroll down a bit you will find **Guild Install**, click it and select bot.<br>
 ● A new option will pop up called **Permission**. Click it and select all the permission you want for your bot. In my case I'm setting it to Administrator.<br>
 ● Make sure to save changes.<br>
+
 ● Now scroll up you will find **Install link** section. Click on copy button and paste it into your new browser tab. And invite the bot into your discord server.<br>
 
 ● Now you can see a Bot option on the left side. Click on it.<br>
