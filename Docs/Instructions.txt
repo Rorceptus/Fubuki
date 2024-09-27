@@ -1,0 +1,81 @@
+||-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------||
+||-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------||
+||  /$$$$$$$$        /$$                 /$$       /$$                     /$$$$$$$$ /$$                       /$$$$$$$  /$$                                               /$$       /$$$$$$$              /$$     ||
+|| | $$_____/       | $$                | $$      |__/                    |__  $$__/| $$                      | $$__  $$|__/                                              | $$      | $$__  $$            | $$     ||
+|| | $$    /$$   /$$| $$$$$$$  /$$   /$$| $$   /$$ /$$                       | $$   | $$$$$$$   /$$$$$$       | $$  \ $$ /$$  /$$$$$$$  /$$$$$$$  /$$$$$$   /$$$$$$   /$$$$$$$      | $$  \ $$  /$$$$$$  /$$$$$$   ||
+|| | $$$$$| $$  | $$| $$__  $$| $$  | $$| $$  /$$/| $$       /$$$$$$         | $$   | $$__  $$ /$$__  $$      | $$  | $$| $$ /$$_____/ /$$_____/ /$$__  $$ /$$__  $$ /$$__  $$      | $$$$$$$  /$$__  $$|_  $$_/   ||
+|| | $$__/| $$  | $$| $$  \ $$| $$  | $$| $$$$$$/ | $$      |______/         | $$   | $$  \ $$| $$$$$$$$      | $$  | $$| $$|  $$$$$$ | $$      | $$  \ $$| $$  \__/| $$  | $$      | $$__  $$| $$  \ $$  | $$     ||
+|| | $$   | $$  | $$| $$  | $$| $$  | $$| $$_  $$ | $$                       | $$   | $$  | $$| $$_____/      | $$  | $$| $$ \____  $$| $$      | $$  | $$| $$      | $$  | $$      | $$  \ $$| $$  | $$  | $$ /$$ ||
+|| | $$   |  $$$$$$/| $$$$$$$/|  $$$$$$/| $$ \  $$| $$                       | $$   | $$  | $$|  $$$$$$$      | $$$$$$$/| $$ /$$$$$$$/|  $$$$$$$|  $$$$$$/| $$      |  $$$$$$$      | $$$$$$$/|  $$$$$$/  |  $$$$/ ||
+|| |__/    \______/ |_______/  \______/ |__/  \__/|__/                       |__/   |__/  |__/ \_______/      |_______/ |__/|_______/  \_______/ \______/ |__/       \_______/      |_______/  \______/    \___/   ||
+||-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------||
+||-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------||
+
+● There are few things which have to be done before running this Discord Bot properly.
+● You need to go through all the links mentioned below for installing required softwares.
+
+● It is recommended to have basic knowledege of python otherwise it will be difficult for you to understand what's going on here.
+● I will update the instructions below if needed. So keep checking my github one in a while for updates.
+
+➤ IMPORTANT LINKS:-
+
+    ● Code Editor [VsCode]: https://code.visualstudio.com/download
+    ● MySQL [Database]: https://www.mysql.com/downloads/
+
+    ● Reddit [API]: https://old.reddit.com/prefs/apps/
+    ● Google Gemini [API]: https://ai.google.dev/
+
+    ● Discord Developer Portal: https://discord.com/developers/applications
+
+➤ HOW TO GET REDDIT API:-
+
+    ● Remember Do not share your API keys or secret to anyone you don't trust.
+
+    ● Copy and paste the above mentioned url in your favourite browser of Reddit [API].
+    ● You need to log in to reddit or create an account to save your api key.
+    ● Now click on create another app and then put the name for your application.
+    ● In redirect url put "http://localhost:8000" if you are going to use this discord bot locally or for personal use.
+    ● Then pass the captcha and click create app.
+    ● Now your reddit api is ready, you need to copy two things from here.
+      - Copy the secret part and save it somewhere safe.
+      - Also copy the similar looking text as secret under the web app and save it somewhere.
+
+➤ HOW TO GET GOOGLE GEMINI API:-
+
+    ● Remember Do not share your API keys or secret to anyone you don't trust.
+
+    ● Copy and paste the above mentioned url in your favourite browser of Google Gemini [API].
+    ● First log in using your google account to save your key.
+    ● Now click on Google AI Studio at the top of the site and you will be redirected.
+    ● Click on "Get API Key" [Blue Button] at the left top side.
+    ● Here click on "Create API Key" then search for "Generative Language Client".
+    ● Now copy your new google gemini key and save it somewhere safe.
+
+➤ CONFIGURATION:-
+
+    ● You can see we have few configuration files in "Config" folder.
+    ● The first one is .env file.
+      - This file will hold your bot token which you can get from discord developers portal.
+      - Copy and past your bot token in this file. This will help your bot to go online and interact with the server.
+    ● Next one is API.json file.
+      - In this file you can see a lot of api keys some of them are empty, you need to fill the empty one.
+      - API keys like Dog, Cat, Joke etc are open API's so there is no need to change them. Just leave them as it is.
+      - Now put the API Keys you copied before in the appropriate places.
+    ● Next is Config.json file.
+      - For this config file you need to enable developer mode. To do this go to discord settings > Advance > Developer Mode.
+      - Now if you right click on any channel or role you can see one more option at the very bottom to copy channel/role id.
+      - This way you need to copy the required channel or role id's for this bot to work properly.
+      - In this file you can change the bot name but leave the prefix to '/'. Since this bot uses slash as prefix.
+      - Lastly you need to put appropriate credentials to access you MySQL Database. I won't explain how to setup mysql so consider watching a video or two on youtube.
+      - Also If you are changing the bot name under the Profile section then make sure to do the same for the name under database section. It will be easier to manage if database name is same as the bot.
+
+➤ CONCLUSION:-
+    ● As I said before you need to have basic knowledege of python or mysql or discord. Otherwise it will be difficult to setup this bot.
+    ● Do not share any API key, token, secret etc to anyone you don't trust. Otherwise it will be harmfull for the project you are working on or even for you personal data.
+    ● Try to keep all the credentials private for security.
+    ● If at any point you got stuck on any part consider joining my discord server. I will help you as soon as i can. You can find the link to my server at the very bottom.
+    ● I will keep updating this bot for a while if i had time so consider checking once in a while.
+
+    ● LINK TO MY DISCORD SERVER: https://discord.gg/gGvayJfFZW
+
+THANK YOU FOR TAKING INTREST IN MY PROJECT.

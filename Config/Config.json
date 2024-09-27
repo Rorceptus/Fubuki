@@ -1,0 +1,21 @@
+{
+    "PROFILE": {
+        "Name": "Fubuki",
+        "Prefix": "/"
+    },
+
+    "CHANNELS": {
+        "Welcome Channel": "YOUR WELCOME CHANNEL ID HERE."
+    },
+
+    "ROLES": {
+        "Guest Role": "YOUR GUEST ROLE ID HERE."
+    },
+
+    "DATABASE": {
+        "Name": "fubuki",
+        "User": "USERNAME OF YOUR MYSQL PROFILE",
+        "Password": "PASSWORD TO YOUR MYSQL PROFILE",
+        "Host": "DEFINE THE HOST YOU ARE USING [Ex; localhost]"
+    }
+}

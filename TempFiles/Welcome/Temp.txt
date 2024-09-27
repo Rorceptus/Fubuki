@@ -1,0 +1,2 @@
+This Image folder is to store temporary Welcome image files created by the bot.
+These files is set to delete automatically when the work is done.

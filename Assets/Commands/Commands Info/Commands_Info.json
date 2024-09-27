@@ -1,0 +1,113 @@
+{
+    "Clear": {
+        "name": "Clear Command",
+        "usage": "**/clear [Amount(--)]**",
+        "restrictions": "Limited *Admins*, *Mods* and *Helpers*.",
+        "description": "Clears a specified number of messages from the channel. Because of discord limitations max numbers of messages can be deleted in bunch is 99."
+    },
+
+    "Ping": {
+        "name": "Ping Command",
+        "usage": "**/ping**",
+        "restrictions": "Any one can use.",
+        "description": "Command used to check bot's response time."
+    },
+
+    "Meme": {
+        "name": "Meme Command",
+        "usage": "**/meme** or **/meme [category(--)]**",
+        "restrictions": "Any one can use.",
+        "description": "Shows a random meme from the reddit. If the category is mentioned then show a meme from that specific category."
+    },
+
+    "About": {
+        "name": "About Command",
+        "usage": "**/about**",
+        "restrictions": "Any one can use.",
+        "description": "Show's the basic info of the the bot."
+    },
+
+    "Avatar": {
+        "name": "Avatar Command",
+        "usage": "**/avatar** or **/avatar [user(--)]**",
+        "restrictions": "Any one can use.",
+        "description": "Show user profile photo in embed message."
+    },
+
+    "Joke": {
+        "name": "Joke Command",
+        "usage": "**/joke** or **/joke [category(--)]**",
+        "restrictions": "Any one can use.",
+        "description": "Get a random joke or from the choosen category."
+    },
+
+    "Dog": {
+        "name": "Dog Command",
+        "usage": "**/dog**",
+        "restrictions": "Any one can use.",
+        "description": "Get random cute dog pictures."
+    },
+
+    "Cat": {
+        "name": "Cat Command",
+        "usage": "**/cat**",
+        "restrictions": "Any one can use.",
+        "description": "Get random cute cat pictures."
+    },
+
+    "Help": {
+        "name": "Help Command",
+        "usage": "**/help [cmd(--)]**",
+        "restrictions": "Any one can use.",
+        "description": "Get info on all the available commands."
+    },
+
+    "Urban": {
+        "name": "Urban Command",
+        "usage": "**/urban [term(--)]**",
+        "restrictions": "Any one can use.",
+        "description": "Look up a definition for a term in urban dictionary."
+    },
+
+    "Warn": {
+        "name": "Warn Command",
+        "usage": "**/warn [member(--)] [reason(--)]**",
+        "restrictions": "Limited *Admins*, *Mods* and *Helpers*.",
+        "description": "Warns someone through DM if they do something."
+    },
+
+    "Wiki": {
+        "name": "Wiki Command",
+        "usage": "**/wiki [term(--)]**",
+        "restrictions": "Any one can use.",
+        "description": "Get more info from wikipedia on you favourite topic."
+    },
+
+    "Flip": {
+        "name": "Flip Command",
+        "usage": "**/flip**",
+        "restrictions":"Any one can use.",
+        "description": "Flip a coin to get head or tail."
+    },
+
+    "Roll": {
+        "name": "Dice Roll Command",
+        "usage": "**/roll** or **/roll [sides(--)]**",
+        "restrictions": "Any one can use.",
+        "description": "Rolls a dice with specified dice. Default is 6."
+    },
+
+    "Image": {
+        "name": "Image Command",
+        "usage": "**/image [user(--)] [filter(--)]",
+        "restrictions": "Any one can use.",
+        "description": "Put various filters on profile photos."
+    },
+
+    "Gemini": {
+        "name": "Gemini Command",
+        "usage": "**/gemini [question(--)]",
+        "restrictions": "Any one can use.",
+        "description": "Get AI responses from google gemini."
+    }
+}

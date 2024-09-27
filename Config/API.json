@@ -1,0 +1,21 @@
+{
+    "REDDIT": {
+        "Client Id": "PUT CLIENT ID HERE",
+        "Client Secret": "PUT CLIENT SECRET HERE",
+        "User Agent": "Fubuki 1.0 by u/rorceptus"
+    },
+
+    "GEMINI": {
+        "Key": "PUT YOUR GOOGLE GEMINI API KEY HERE"
+    },
+
+    "Joke": "https://v2.jokeapi.dev/joke/",
+
+    "Dog": "https://dog.ceo/api/breeds/image/random",
+
+    "Cat": "https://api.thecatapi.com/v1/images/search",
+
+    "Urban": "https://api.urbandictionary.com/v0/define?term=",
+
+    "Wikipedia": "https://en.wikipedia.org/api/rest_v1/page/summary/"
+}

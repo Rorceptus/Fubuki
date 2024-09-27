@@ -1,0 +1,3 @@
+This Image folder is to store log or error files created by the bot.
+These files won't be deleted unlike other temporary files.
+If needed then the these files should be removed manually.
