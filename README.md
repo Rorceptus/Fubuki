@@ -49,5 +49,7 @@ I will explain how to get bot token here. For mode detail consider reading the *
 ● So we are done here. But you are free to explore as you can set bot descriptions, profile photo etc.<br>
 ● Refer to the **Intructions.txt** file for to know more about configuration.<br>
 
-● If you are stuck somewhere while following through any steps above mentioned or while configuring the bot consider join my [Discord Server](https://discord.gg/gGvayJfFZW).
+● If you are stuck somewhere while following through any steps above mentioned or while configuring the bot consider join my [Discord Server](https://discord.gg/gGvayJfFZW).<br>
 ● I will help you as soon as i can.
+
+---
